@@ -279,6 +279,14 @@ export default function Home() {
         className="w-full max-w-md rounded-md shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105"
         onClick={() => handleImageClick('/images/sharejson.png')} // Open modal on image click
       />
+      <Image 
+        src="/images/sharejson2.png" 
+        alt="Sharing JSON Data" 
+        width={500} 
+        height={300} 
+        className="w-full max-w-md rounded-md shadow-md transition-transform duration-300 ease-in-out transform hover:scale-105"
+        onClick={() => handleImageClick('/images/sharejson2.png')} // Open modal on image click
+      />
 
       <h2 id="logging-out" className="text-2xl font-semibold">Logging Out</h2>
       <p>
